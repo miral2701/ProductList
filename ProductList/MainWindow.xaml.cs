@@ -64,9 +64,8 @@ namespace ProductList
             exp.HorizontalContentAlignment = HorizontalAlignment.Stretch;
             //Insert Expander into the StackPanel and add it to the
             //Grid
-           
+
             a.Items.Add(exp);
-          
             
         }
 
