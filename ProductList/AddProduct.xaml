@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProductList"
         mc:Ignorable="d"
-        Title="AddProduct" Height="248" Width="374" ResizeMode="NoResize">
+        Title="AddProduct" Height="282" Width="374" ResizeMode="NoResize">
     <Window.Background>
         <RadialGradientBrush>
             <GradientStop Color="#FFFFC966"/>
             <GradientStop Color="#FFE3DC37" Offset="1"/>
         </RadialGradientBrush>
     </Window.Background>
-    <Grid Margin="0,0,10,0">
+    <Grid Margin="0,0,10,-6">
         <TextBlock HorizontalAlignment="Left" Margin="10,19,0,0" TextWrapping="Wrap" Text="Enter Product-&gt;" VerticalAlignment="Top" Width="157" FontSize="18" FontWeight="Bold"/>
         <TextBox Name="textBox1" HorizontalAlignment="Left" Margin="196,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" Text="Enter Discription-&gt;" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Bold"/>
         <TextBox Name="textBox2" HorizontalAlignment="Left" Margin="196,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"  FontSize="18" Height="75"/>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Height="35" Width="103" Background="#FF1858B3" FontStyle="Italic" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="10,198,0,0" VerticalAlignment="Top" Height="35" Width="103" Background="#FF1858B3" FontStyle="Italic" FontWeight="Bold" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="11,145,0,0" TextWrapping="Wrap" Text="Check status  -&gt;" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Bold"/>
         <CheckBox Content="CheckBox" Name="checkBox1" HorizontalAlignment="Left" Margin="220,152,0,0" VerticalAlignment="Top" Height="27" Width="92"/>
 
