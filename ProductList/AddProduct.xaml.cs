@@ -21,17 +21,20 @@ namespace ProductList
     {
         TextBlock t1;
         TextBlock t2;
-        public AddProduct(TextBlock t1,TextBlock t2)
+        CheckBox c1;
+        public AddProduct(TextBlock t1,TextBlock t2,CheckBox c)
         {
             InitializeComponent();
             this.t1 = t1;
             this.t2 = t2;   
+            this.c1 = c;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             t1.Text=textBox1.Text; 
             t2.Text=textBox2.Text;
+            c1.IsChecked = checkBox1.IsChecked;
             if (t1.Text == "" && t2.Text == "")
             {
                 MessageBox.Show("Empty string");
@@ -41,6 +44,11 @@ namespace ProductList
                 this.Close();
 
             }
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

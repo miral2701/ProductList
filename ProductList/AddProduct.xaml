@@ -13,11 +13,13 @@
         </RadialGradientBrush>
     </Window.Background>
     <Grid Margin="0,0,10,0">
-        <TextBlock HorizontalAlignment="Left" Margin="10,39,0,0" TextWrapping="Wrap" Text="Enter Product-&gt;" VerticalAlignment="Top" Width="157" FontSize="18" FontWeight="Bold"/>
-        <TextBox Name="textBox1" HorizontalAlignment="Left" Margin="196,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Enter Discription-&gt;" VerticalAlignment="Center" Width="171" FontSize="18" FontWeight="Bold"/>
-        <TextBox Name="textBox2" HorizontalAlignment="Left" Margin="196,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"  FontSize="18" Height="75"/>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="37,156,0,0" VerticalAlignment="Top" Height="35" Width="103" Background="#FF1858B3" FontStyle="Italic" FontWeight="Bold" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,19,0,0" TextWrapping="Wrap" Text="Enter Product-&gt;" VerticalAlignment="Top" Width="157" FontSize="18" FontWeight="Bold"/>
+        <TextBox Name="textBox1" HorizontalAlignment="Left" Margin="196,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" Text="Enter Discription-&gt;" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Bold"/>
+        <TextBox Name="textBox2" HorizontalAlignment="Left" Margin="196,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"  FontSize="18" Height="75"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Height="35" Width="103" Background="#FF1858B3" FontStyle="Italic" FontWeight="Bold" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,145,0,0" TextWrapping="Wrap" Text="Check status  -&gt;" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Bold"/>
+        <CheckBox Content="CheckBox" Name="checkBox1" HorizontalAlignment="Left" Margin="220,152,0,0" VerticalAlignment="Top" Height="27" Width="92"/>
 
     </Grid>
 </Window>

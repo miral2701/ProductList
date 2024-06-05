@@ -17,8 +17,8 @@ namespace ProductList
     /// </summary>
     public partial class MainWindow : Window
     {
-        ListBox a=new ListBox();
-       
+       ListBox a=new ListBox();
+      
         public MainWindow()
         {
             InitializeComponent();
@@ -32,9 +32,10 @@ namespace ProductList
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            CheckBox c=new CheckBox();
             TextBlock a1 = new TextBlock();
             TextBlock a2 = new TextBlock();
-            AddProduct p = new AddProduct(a1,a2);
+            AddProduct p = new AddProduct(a1,a2,c);
           
             p.Show();
             
@@ -64,14 +65,17 @@ namespace ProductList
             exp.HorizontalContentAlignment = HorizontalAlignment.Stretch;
             //Insert Expander into the StackPanel and add it to the
             //Grid
-
+            a.Items.Add(c);
             a.Items.Add(exp);
             
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            int i = a.SelectedIndex;
             a.Items.Remove(a.SelectedItem);
+
+            a.Items.RemoveAt(i - 1); 
         }
     }
 }
